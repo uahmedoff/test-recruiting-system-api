@@ -24,8 +24,12 @@
 
     php artisan key:generate
 
-##### Make symbolic link to storage
+##### Run Migrations 
+    php artisan migrate
+   
+##### Database seeder run
+    php artisan db:seed
 
+##### Symlink to public folder
     php artisan storage:link
-
-    
+     
